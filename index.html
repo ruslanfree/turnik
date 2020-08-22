@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>Турник брусья пресс</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="logo-head col-lg-6">
+                        <!-- logotip -->
+                        <div class="logo-body">
+                            <div class="img-logo">
+                                <img src="images/logotip.png" alt="">
+                            </div>
+                            <div class="text-logo">
+                                <h6>турник-брусья-пресс(3 в 1)</h6>
+                                <h6>доставка по всей украине</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- contacts -->
+                    <div class="header-contact col-lg-6">
+                        <div class="tel-nomber">
+                            <span><i class="fa fa-phone animate__animated animate__infinite animate__tada "
+                                    aria-hidden="true"></i>8(067)786-79-99</span>
+                        </div>
+                        <div class="phone-button">
+                            <button id="callMe" onclick="fun3()">заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-content -->
+        <div class="container">
+            <div class="row">
+                <div class="products col-lg-8 col-md-6">
+                    <div class="products-body">
+
+                        <!-- produkts-image -->
+                        <div class="products-image">
+                            <div class="image-item1">
+                                <div class="products-price">
+                                    <!-- price-circle -->
+                                    <strike>4 500 p.</strike><br>
+                                    <span>3 800 p.</span>
+                                </div>
+                                <img src="images/turnik.png" alt="">
+                                <div class="text">
+                                    <h6>переворачивается </h6>
+                                    <span>за 5 секунд</span>
+                                </div>
+                            </div>
+                            <div class="image-items2">
+                                <img src="images/men.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- form-input-text -->
+                <div class="header-form col-lg-4 col-md-6">
+                    <div class="products-form">
+                        <div class="form-title">
+                            <h2>успей купить</h2>
+                            <span>и наш специалист свяжется с вами</span>
+                        </div>
+                        <!-- form-body -->
+                        <div class="form-body">
+                            <form action="#">
+                                <div class="name">
+                                    <input type="text" placeholder="Имя">
+                                </div>
+                                <div class="phone">
+                                    <input type="number" placeholder="Телефон">
+                                </div>
+                                <div class="e-mail">
+                                    <input type="email" placeholder="E-mail">
+                                </div>
+                                <div class="checkbox">
+                                    <p><input type="checkbox" id="one" onchange="fun1()"> Крюки для перекладины и тяги
+                                    </p> <span>?</span>
+                                </div>
+                                <div class="checkbox">
+                                    <p><input type="checkbox" id="two" onchange="fun2()">Резиновые петли</p>
+                                    <span>?</span>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="submit">Заказать</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- form-footer -->
+                        <div class="form-footer">
+                            <div class="action-sell">
+                                <p>акция</p>
+                                <span>скидка</span>
+                                <b>15%</>
+                            </div>
+                            <div class="form-sell-time">
+                                <div class="sell-title">
+                                    <h5>до конца акции осталось</h5>
+                                </div>
+                                <div class="sell-body">
+                                    <div class="sell-hours">
+                                        <b>15</b>
+                                        <span>часов</span>
+                                    </div>
+                                    <div class="sell-minuts">
+                                        <b>48</b>
+                                        <span>минут</span>
+                                    </div>
+                                    <div class="sell-seconds">
+                                        <b>27</b>
+                                        <span>секунд</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="sports-items col-lg-4 col-md-4 col-sm-6">
+                    <div class="items-img">
+                        <img src="images/ico1.png" alt="">
+                    </div>
+                    <div class="items-title">Более 3000 </div>
+                    <div class="items-subtitle">довольных спортсменов</div>
+                </div>
+                <div class="sports-items col-lg-4 col-md-4 col-sm-6">
+                    <div class="items-img">
+                        <img src="images/ico2.png" alt="">
+                    </div>
+                    <div class="items-title">Нагрузка до 300 кг</div>
+
+                </div>
+                <div class="sports-items col-lg-4 col-md-4 col-sm-6">
+                    <div class="items-img">
+                        <img src="images/ico3.png" alt="">
+                    </div>
+                    <div class="items-title">3 года гарантии</div>
+
+                </div>
+                <div class="sports-items col-lg-4 col-md-4 col-sm-6">
+                    <div class="items-img">
+                        <img src="images/ico4.png" alt="">
+                    </div>
+                    <div class="items-title">10 дней на возврат</div>
+                    <div class="items-subtitle">(без скандалов и експертиз)</div>
+                </div>
+                <div class="sports-items col-lg-4 col-md-4 col-sm-6">
+                    <div class="items-img">
+                        <img src="images/ico5.png" alt="">
+                    </div>
+                    <div class="items-title" Доставка></div>
+                    <div class="items-subtitle">(По желанию)</div>
+                </div>
+                <div class="sports-items col-lg-4 col-md-4 col-sm-6">
+                    <div class="items-img">
+                        <img src="images/ico6.png" alt="">
+                    </div>
+                    <div class="items-title">Установка</div>
+                    <div class="items-subtitle">(По желанию)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="characters">
+        <div class="container">
+            <div class="characters-title">
+                <h1>Характеристики</h1>
+            </div>
+            <div class="row">
+                <div class="charakters-item col-lg-6 col-md-6 col-12">
+                    <div class="item-price">
+                        <p>Цена <strike> 4500 p </strike><big> 3890 p </big></p><span> -15%</span>
+                    </div>
+                    <div class="item-images ">
+                        <div class="img-slider">
+                            <div class="img-items">
+                                <img src="images/turnik2.jpg" alt="">
+                            </div>
+                            <div class="img-items">
+                                <img src="images/full_01_mini.jpg" alt="">
+                            </div>
+                            <div class="img-items">
+                                <img src="images/1030instr.jpg" alt="">
+                            </div>
+                            <div class="img-items">
+                                <img src="images/1030instr.jpg" alt="">
+                            </div>
+                            <div class="img-items">
+                                <img src="images/full_01_mini.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="charakters-list col-lg-6 col-md-6 col-12">
+                    <div class="charakters-list-title">
+                        <h3>Габариты "Турник-брусья-пресс 3в1":</h3>
+                    </div>
+                    <ul class="list-char">
+                        <li>Длина перекладины 110см</li>
+                        <li>Вынос турника от стены 50см</li>
+                        <li>Вынос брусьев от стены 80см</li>
+                        <li>Расстояние между брусьями 60см</li>
+                    </ul>
+                    <div class="charakters-list-title">
+                        <h3>Комплектация</h3>
+                    </div>
+                    <ul class="list-char">
+                        <li>тренажер"Турник + брусья + пресс 3в1"</li>
+                        <li>4 кронштейна</li>
+                        <li>8 анкерных болтов</li>
+                        <li>8 мягких ручек(2 длинные 6 коротких)</li>
+                        <li>2 мягких подлокотника</li>
+                        <li>1 мягкая подушка под спину</li>
+                        <li>8 круглых заглушек</li>
+                        <li>2 квадратные заглушки</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="characters-footer">
+            <div class="container">
+                <div class="form-block">
+                    <form action="#" method="get">
+                        <div class="form-items row">
+                            <div class="input-name col-lg-3 col-md-6 col-12">
+                                <input type="text" placeholder="Имя">
+                            </div>
+                            <div class="input-phone col-lg-3 col-md-6  col-12">
+                                <input type="number" placeholder="Телефон">
+                            </div>
+                            <div class="input-mail col-lg-3 col-md-6  col-12">
+                                <input type="email" placeholder="E-mail">
+                            </div>
+                            <div class="input-button col-lg-3 col-md-6  col-12">
+                                <button type="submit">ЗАКАЗАТЬ</button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    <article class="article">
+        <div class="container">
+            <div class="description">
+                <div class="description-title">
+                    <h1>Описание</h1>
+                </div>
+                <div class="article-text">
+                    <p>Никак не хватает времени записаться в спортзал, чтобы поддерживать себя в физической форме? Тогда
+                        организуйте себе тренировки дома. И для этого не нужно выделять отдельную комнату, чтобы
+                        наполнить ее спортинвентарем. Для таких целей вам нужно только купить турник настенный в Киеве.
+
+                        Этот тренажер идеально подходит для взрослых и для детей. Укрепление осанки, поддержание
+                        физической формы – это основные возможности оснащения. Вот почему в каждой квартире встречалась
+                        подобная перекладина над дверью. Но со временем в интернет-магазине Plenergy пользователи в
+                        Украине стали больше покупать настенный турник.
+
+                        В чем особенность оснащения?
+                        Как уже понятно из самого названия, крепят подобную конструкцию к одной из стен. Такой способ
+                        считается более надежным по сравнению с остальными. Так как для монтажа используют анкерные
+                        болты.
+
+                        Несмотря на положительные качества, пользователям не стоит забывать о таких моментах:
+
+                        установка возможна только на кирпичные или панельные стены;
+                        невозможность отрегулировать высоту;
+                        обязательное сверление отверстий.
+                        Гипсокартонные перегородки просто не выдержат возложенную нагрузку. Они проломятся под тяжестью
+                        самого снаряда.</p>
+                    <p>Как не ошибиться с выбором?
+                        В интернет-магазине Plenergy представлен один из самых больших ассортиментов от известных
+                        производителей. Уют Спорт, SPORTKO, Inter Atletika – это одни из самых популярных брендов на
+                        рынке.
+
+                        Но это еще не все преимущества покупок онлайн:
+
+                        доставка на протяжении 3 дней по указанному адресу;
+                        профессиональная консультация;
+                        возможность возврата и обмена;
+                        гарантийный срок на 1 год.
+                        Задумались, где бы недорого купить настенный турник в Украине? Интернет-магазин Plenergy
+                        предлагает огромный ассортимент с товарами. У вас не возникнет сложностей с поиском. Всего
+                        несколько минут и заказ оформлен. Приятно порадует и стоимость. По сравнению с обычными
+                        торговыми центрами цена на настенный турник лил турник-брусья онлайн несколько ниже.
+                        Позаботьтесь о полноценных домашних тренировках.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <section class="related-goods">
+        <div class="container">
+            <div class="goods-caption">
+                <h1>сопутствующие товары</h1>
+            </div>
+            <div class="row">
+                <div class="goods-img col-lg-5 col-md-5 ">
+                    <div class="img-title">
+                        <h4>Крюки для перекладины</h4>
+                    </div>
+                    <div class="img-body">
+
+                        <img src="images/kruky.jpg" alt="">
+                    </div>
+                </div>
+                <div class="goods-text col-lg-7 col-md-7">
+                    <div class="text-body">
+                        <p><b>Крюки для перекладины</b> служат для уменьшения нагрузки на мышцы и связки предплечий.
+                            Используются во время выполнения таких упражнений как: подтягивание на перекладине,
+                            упражнения становой тяги, упражнения для брюшного пресса в состоянии вися на перекладине,
+                            шраги с гантелями, тяга гантелей и штанги в наклоне и многих других упражнений в которых
+                            основная нагрузка идет на мышцы предплечья.
+                            Крюки для перекладины и тягы предназначены для стабилизации и улучшения хвата, что позволяет
+                            вам снять нагрузку с кистей и сконцентрироваться на конкретных мышцах. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="goods-img col-lg-5 col-md-5">
+                    <div class="img-title">
+                        <h4>Резиновые петли</h4>
+                    </div>
+                    <div class="img-body">
+                        <img src="images/petli.jpg" alt="">
+                    </div>
+                </div>
+                <div class="goods-text col-lg-7 col-md-7 ">
+                    <div class="text-body">
+                        <p><b>Резиновые петли</b> широко применяются в STREET WORKOUT в процессе: <br>
+                            - растяжки и разминки;<br>
+                            - обучения подтягиваниям, отжиманиям (ассистирующая функция);<br>
+                            - освоения сложных гимнастических упражнений на кольцах, брусьях и турнике (ассистирующая
+                            функция);<br>
+                            - развития взрывной силы и скоростно-силовых качеств;<br>
+                            - поддержания физических кондиций вне спортзала;<br>
+                            - реабилитации и восстановления. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="video-block">
+        <div class="container">
+            <div class="video-caption">
+                <h1>Видео</h1>
+            </div>
+            <div class="row">
+
+                <div class="sportsmen col-lg-6 col-md-12">
+                    <div class="sport-img">
+                        <img src="images/turnikmen.jpg" alt="">
+                    </div>
+                </div>
+                <div class="video-block col-lg-6 col-md-12">
+                    <div class="video-item">
+                        <div class="video-title">
+                            <p>Видеообзор на турник 3в1</p>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/aw17loH2Tz0" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-title">
+                            <p>Видеообзор на турник 3в1</p>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/cNOTjINCZX8" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews-caption">
+                <h1>ОТЗЫВЫ</h1>
+            </div>
+            <div class="row">
+                <div class="review-items col-12">
+                    <div class="review-body">
+                        <div class="img-review">
+                            <img src="images/otziv1.jpg" alt="">
+                        </div>
+                        <div class="review-text">
+                            <p>“ Здравствуйте! Заказал турник 3/1. Больше всего переживал за ответственность поставки да
+                                и конторы в целом.Всё что произошло дальше зашкаливает за 5 балов.прием заказа,оплата и
+                                доставка- вобщем организация просто супер.через 3 дня я забрал турник как и обещали!
+                                Приятно иметь дело с такими людьми,подсказали и помогли.Огромное спасибо что работаете
+                                чисто и предоставлеными товарами дарите людям здоровье! Ребята и девушки сайт честный и
+                                проверенный,рекомендую!!!! ”
+                            </p>
+                            <h3> Сергей Афонин</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-items col-12">
+                    <div class="review-body">
+                        >
+                        <div class="review-text">
+                            <p>“ Привет) Заказала турник молодому человеку на 23. Вообще турник - это моя первая
+                                интернет- покупка, очень переживала, что может быть обман или ещё что-то, но как
+                                оказалось зря =) Оплатила заказ и уже через 3 дня турник приехал ко мне домой) Все
+                                детали на месте...всё круто. Заказывайте смело ! ”
+                            </p>
+                            <h3>Аленка Колесникова</h3>
+                        </div>
+                        <div class="img-review">
+                            <img src="images/otziv2.jpg" alt="">
+                        </div </div> </div> <div class="review-items col-12">
+                        <div class="review-body">
+                            <div class="img-review">
+                                <img src="images/otziv3.jpg" alt="">
+                            </div>
+                            <div class="review-text">
+                                <p>“ Всем привет! Так же хочу оставить и свой отзыв. Решил заказать обратный звонок и
+                                    узнать, что да как. Перезвонили мне спустя минут 15, предложил несколько вариантов
+                                    доставки на выбор по времени (о предоплате речь даже и не шла), либо завтра, либо
+                                    сегодня но с 22.00 по 23.00. Естественно сегодня. Товар доставлен как и было
+                                    обещано. Упакован, скомплектован и без дефектов. Собственно и всё, понравилось,
+                                    заказал, привезли, оплатил. Ребенок опробовал первый, ткнул ножнями в подлокотник и
+                                    проделал дырочку. Значит служить будет долго и честно. Спасибо, так держать!!! ”
+                                </p>
+                                <h3> Дмитрий Топольский</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="workouts-result">
+        <div class="container">
+            <div class="workouts-caption">
+                <h1>ДО И ПОСЛЕ ТРЕНИРОВОК</h1>
+            </div>
+            <div class="row">
+                <div class="workouts-img col-lg-6 col-md-6">
+                    <div class="workouts-body">
+                        <div class="workout-items">
+                            <img src="images/dopos1.jpg" alt="" >
+                            <div class="work-subtitle"> <span>До</span>
+                                <p>После</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workouts-img col-lg-6 col-md-6">
+                    <div class="workouts-body">
+                        <div class="workout-items">
+                            <img src="images/dopos2.jpg" alt="" >
+                            <div class="work-subtitle"> <span>До</span>
+                                <p>После</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workouts-img col-lg-6 col-md-6">
+                    <div class="workouts-body">
+                        <div class="workout-items">
+                            <img src="images/dopos3.jpg" alt="">
+                            <div class="work-subtitle"> <span>До</span>
+                                <p>После</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="workouts-img col-lg-6 col-md-6">
+                    <div class="workouts-body">
+                        <div class="workout-items">
+                            <img src="images/dopos4.jpg" alt="">
+                            <div class="work-subtitle"> <span>До</span>
+                                <p>После</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="row">
+                <div class="footer-products col-lg-8 col-md-6">
+                    <div class="footer-products-body">
+
+                        <!-- produkts-image -->
+                        <div class="footer-products-image">
+                            <div class="footer-image-item1">
+                                <div class="footer-products-price">
+                                    <!-- price-circle -->
+                                    <strike>4 500 p.</strike><br>
+                                    <span>3 800 p.</span>
+                                </div>
+                                <img src="images/turnik.png" alt="">
+                                <div class="footer-text">
+                                    <h6>переворачивается </h6>
+                                    <span>за 5 секунд</span>
+                                </div>
+                            </div>
+                            <div class="footer-image-items2">
+                                <img src="images/men.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- form-input-text -->
+                <div class="footer-form col-lg-4 col-md-6">
+                    <div class="footer-products-form">
+                        <div class="footer-form-title">
+                            <h2>успей купить</h2>
+                            <span>и наш специалист свяжется с вами</span>
+                        </div>
+                        <!-- form-body -->
+                        <div class="footer-form-body">
+                            <form action="#">
+                                <div class="fname">
+                                    <input type="text" placeholder="Имя">
+                                </div>
+                                <div class="fphone">
+                                    <input type="number" placeholder="Телефон">
+                                </div>
+                                <div class="fe-mail">
+                                    <input type="email" placeholder="E-mail">
+                                </div>
+                                <div class="fcheckbox">
+                                    <p><input type="checkbox" id="one" onchange="fun1()"> Крюки для перекладины и тяги
+                                    </p> <span>?</span>
+                                </div>
+                                <div class="fcheckbox">
+                                    <p><input type="checkbox" id="two" onchange="fun2()">Резиновые петли</p>
+                                    <span>?</span>
+                                </div>
+                                <div class="footer-form-submit">
+                                    <button type="submit">Заказать</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- form-footer -->
+                        <div class="footer-form-footer">
+                            <div class="footer-action-sell">
+                                <p>акция</p>
+                                <span>скидка</span>
+                                <b>15%</>
+                            </div>
+                            <div class="footer-form-sell-time">
+                                <div class="footer-sell-title">
+                                    <h5>до конца акции осталось</h5>
+                                </div>
+                                <div class="footer-sell-body">
+                                    <div class="footer-sell-hours">
+                                        <b>15</b>
+                                        <span>часов</span>
+                                    </div>
+                                    <div class="footer-sell-minuts">
+                                        <b>48</b>
+                                        <span>минут</span>
+                                    </div>
+                                    <div class="footer-sell-seconds">
+                                        <b>27</b>
+                                        <span>секунд</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jqwery.js"></script>
+    <script src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
